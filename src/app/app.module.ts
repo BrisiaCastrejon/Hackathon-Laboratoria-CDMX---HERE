@@ -31,8 +31,6 @@ import { MapComponent } from './components/map/map.component';
 import { RealvideoComponent } from './components/realvideo/realvideo.component';
 import { ConnectionbdService } from './services/connectionbd.service';
 
-
-
 @NgModule({
   declarations: [
     AppComponent,

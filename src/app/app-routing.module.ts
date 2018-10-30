@@ -21,7 +21,9 @@ const routes: Routes = [
   { path: 'realvideo', component: RealvideoComponent, canActivate: [AuthGuard]},
   { path: 'lista', component: ListaComponent, canActivate: [AuthGuard] },
   {path: 'list', component: ListComponent },
-  {path: 'list-add', component: ListAddComponent }
+  {path: 'list-add', component: ListAddComponent },
+  { path: 'list', component: ListComponent },
+  { path: 'list-add', component: ListAddComponent }
 ];
 
 @NgModule({
